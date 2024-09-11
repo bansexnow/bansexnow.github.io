@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+    text-align: center;
+}
+
+.small-logo {
+    width: 100px;
+    height: auto;
+}
+
+@font-face {
+    font-family: 'GothicFont';
+    src: url('fonts/Fantasma-Regular.ttf') format('truetype');
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'GothicFont', sans-serif;
+}
+
+.small-logo {
+    width: 300px;
+    height: auto;
+}
+
+html *
+{
+   font-size: 1.1em !important;
+   color: #000;
+   font-family: GothicFont, sans-serif;
+   line-height: 0.1; /* Adjust this value to make the gap smaller */
+}
